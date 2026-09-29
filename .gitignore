@@ -1,0 +1,57 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
+/pubspec.lock
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+/build/
+/coverage/
+
+# Local machine config & signing material — never commit
+**/local.properties
+**/key.properties
+**/*.keystore
+**/*.jks
+**/*.p12
+**/*.pem
+**/.env
+**/.env.*
+example/ohos/build-profile.json5
+
+# Generated platform artifacts
+**/build/
+**/Pods/
+**/ephemeral/
+**/.symlinks/
+**/oh_modules/
+**/node_modules/
+**/.hvigor/
+**/.cxx/
+**/xcuserdata/
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+example/ohos/entry/src/main/resources/rawfile/flutter_assets/
